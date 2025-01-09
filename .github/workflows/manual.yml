@@ -12,7 +12,7 @@ on:
         # Friendly description to be shown in the UI instead of 'name'
         description: 'Person to greet'
         # Default value if no value is explicitly provided
-        default: 'World'
+        default: 'Mr Atul Tiwari Good Job Your CI CD Working Fine'
         # Input has to be provided for the workflow to run
         required: true
         # The data type of the input
@@ -29,4 +29,4 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Send greeting
-      run: echo "Hello ${{ inputs.Atul Tiwari Good Job Your CI CD PipeLine Working Fine  }}"
+      run: echo "Hello ${{ inputs.name  }}"
